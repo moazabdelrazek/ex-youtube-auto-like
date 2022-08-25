@@ -1,0 +1,14 @@
+.main {
+  width: 180px;
+  text-align: center;
+}
+.main h1 {
+  color: #FF0000;
+  font-size: 16px;
+}
+.main p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */

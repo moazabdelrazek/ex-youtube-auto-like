@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Auto Like",
+    "version": "0.0.1",
+    "description": "likes to the videos of channel automatically and making a random comment from some of the comments",
+    "content_scripts": [
+      {
+        "matches": ["https://*.youtube.com/*"],
+        "run_at": "document_end",
+        "js": [
+          "src/js/content.js"
+        ]
+      }
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "YouTube Auto Like",
+      "default_icon": "src/assets/imgs/ex-logo.png"
+    },
+    "icons": {
+      "16": "src/assets/imgs/ex-logo.png",
+      "32": "src/assets/imgs/ex-logo.png",
+      "48": "src/assets/imgs/ex-logo.png",
+      "128": "src/assets/imgs/ex-logo.png"
+    }
+  }
